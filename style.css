@@ -57,6 +57,18 @@ body {
     background-color: rgb(176, 31, 31);
 }
 
-.equal {
+.del {
     background-color: green;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+    
+}
+
+.left{
+    color: white;
+    font-size: 50px;
+    
 }
