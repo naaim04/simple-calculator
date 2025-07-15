@@ -25,8 +25,12 @@ body {
 }
 
 .display {
-    border: 30px solid black;
-    padding: 70px;
+    font-size: 40px;
+    text-align: right;
+    border: 30px solid black;   
+    height: 100px;
+
+    padding: 50px;
     background-color: rgb(197, 194, 194);
     border-radius: 40px;
 }
@@ -34,14 +38,14 @@ body {
 .buttons {
     display: flex;
     flex-wrap: wrap;
-    border: 30px solid black;
+    border: 40px solid black;
     gap: 10px;
     
 }
 .item {
     width: 75px;
     height: 90px;
-    font-size: 30px;
+    font-size: 35px;
     border-radius: 10px;
 }
 
@@ -63,12 +67,18 @@ body {
 .top{
     display: flex;
     justify-content: space-between;
-    gap: 65px;
+    gap: 72px;
     
+}
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
 }
 
 .left{
-    color: white;
-    font-size: 50px;
+    color: greenyellow;
+    font-size: 48px;
+    font-style: italic;
     
 }
